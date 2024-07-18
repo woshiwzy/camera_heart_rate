@@ -15,9 +15,18 @@
             android:layout_height="match_parent"
             android:screenOrientation="portrait" />
 
-        <com.example.android.heartrate.HoleView2
+        <com.android.heartrate.HoleView2
+            android:id="@+id/holeView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textViewBpmInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:textSize="20sp" />
 
     </FrameLayout>
 
